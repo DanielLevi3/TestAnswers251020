@@ -12,7 +12,6 @@ namespace TestPart3Question2
     {
         public int Mone { get; set; }
         public int Mehane { get; set; }
-        public Rational(int mone, int mehane)
         {
             Mone = mone;
             if (mehane < 0)
